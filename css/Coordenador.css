@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+  }
+  
+  body {
+    background-color: #bb0b0b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+  }
+  
+  .hide {
+    display: none  !important;
+  }
+  
+  .container {
+    min-width: 400px;
+    min-height: 400px;
+    background-color: #8f1717;
+    padding: 2rem;
+  }
+  
+  #Cord-container h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .cord-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+.cord-control {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    
+}
+
+.cord-control label {
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+   color: #ccc;  
+}
+
+.cord-control input{
+    padding: 1rem 0.5rem;
+
+} 
+
+.action-control{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    gap: 1rem;
+
+}
+
+button {
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    background-color: rgb(102, 102, 102);
+    border: none;
+    color:#fff;
+    cursor: pointer;
+    opacity: 0.9;
+    flex: 1; 
+
+}
+
+#del-btn {
+  background-color: rgb(34, 31, 31);
+}
+
+#DadosCord-container {
+    text-align: center;
+}
+
+#Final {
+    font-size: 1.4rem;
+    color: #ccc;
+
+}
+
+#DadosCord-container h3 {
+    margin-bottom: 1rem;
+    color: #dfdfdf;
+
+}
+
+#DadosCord-conatiner {
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+  color:#fff
+}
