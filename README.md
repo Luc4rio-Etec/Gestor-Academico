@@ -1,2 +1,1 @@
-# meusite
-Meu primeiro site
+# Gestor Acadêmico
