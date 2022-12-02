@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Professor</title>
+    <link rel="stylesheet" href="../CSS/Professor.css" />    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"  />
+  </head>
+  <body>
+    <div class="container">
+      <div id="NSA-container">
+        <h2>Professores</h2>
+        <form id="Login-form">
+          <div class="Login-inputs">
+            <div class="Login-control">
+              <label for="e-mail">E-mail:</label>
+              <input
+                type="text"
+                name="e-mail"
+                id="e-mail"
+                placeholder="Exemplo: Sergio.Pelicano01@etec.sp.gov.br"
+                required
+              />
+            </div>
+            <div class="Login-control">
+              <label for="senha">Senha:</label>
+              <input
+                type="text"
+                name="senha"
+                id="senha"
+                placeholder="Exemplo: Sergio@Pelicanotec7#4&4"
+                required
+              />
+            </div>
+          <div class="action-control">
+            <button id="troca-btn"><a href="Entrar.html">Volte Para a Página Anterior</button></a>
+            <button id="enter-btn">Novo</button>
+            <button id="clear-btn">Salvar</button>
+            <button id="alterar-btn">Alterar</button>
+            <button id="del-btn">Excluir</button>
+            <button id="consulta-btn">Consulta</button>
+          </div>
+        </form>
+      </div>    
+      <div id="DadosNSA-container" class="hide">
+        <p id="Login">Avançar: <span></span></p>
+        <h3>Confira os seus Dados</h3>
+        <div id="Dados__NSA">
+          <div class="Dados__NSA">
+            <h4>Nome: </h4>
+            <h4>Sexo: </h4>
+            <h4>Data de Nascimento: </h4>
+            <h4>CPF: </h4>
+          </div>
+        </div>
+        <button id="back-btn">Voltar</button>
+      </div>
+    </div>
+  </body>
+</html>
